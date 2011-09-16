@@ -5,4 +5,10 @@
     android:layout_height="fill_parent"
     android:background="@drawable/tile_leather_texture">
 
+  <RelativeLayout
+    android:id="@+id/rl_top_header"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:layout_alignParentTop="true"/>
+    
 </RelativeLayout>
