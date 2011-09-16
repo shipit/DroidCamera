@@ -8,7 +8,61 @@
   <RelativeLayout
     android:id="@+id/rl_top_header"
     android:layout_width="fill_parent"
+    android:layout_height="55dp"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/tile_brushed_metal_texture">
+  
+    <View
+      android:layout_width="fill_parent"
+      android:layout_height="1dp"
+      android:layout_alignParentBottom="true"
+      android:background="@color/hilight_grey"/>
+        
+    <TextView
+      android:id="@+id/tv_logo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_alignParentTop="true"
+      android:text="DROID CAMERA"
+      android:textColor="@color/shadow_grey"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      android:shadowColor="@color/white"
+      android:shadowDx="1"
+      android:shadowDy="-1"
+      android:shadowRadius="0.7"/>
+         
+    <TextView
+      android:id="@+id/tv_sie"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:layout_below="@id/tv_logo"
+      android:text="shippingiseverything.com"
+      android:textColor="@color/shadow_grey"
+      android:textSize="11sp"
+      android:textStyle="normal"
+      android:shadowColor="@color/white"
+      android:shadowDx="1"
+      android:shadowDy="-1"
+      android:shadowRadius="0.7"/>
+           
+  </RelativeLayout>
+   
+  <RelativeLayout
+    android:id="@+id/rl_bottom_tray"
+    android:layout_width="fill_parent"
     android:layout_height="100dp"
-    android:layout_alignParentTop="true"/>
-    
-</RelativeLayout>
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/tile_brushed_metal_texture">
+  
+    <View
+      android:layout_width="fill_parent"
+      android:layout_height="0.5dp"
+      android:layout_alignParentTop="true"
+      android:background="@color/hilight_grey"/>
+        
+  </RelativeLayout>
+        
+</RelativeLayout> 

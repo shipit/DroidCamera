@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="aquamarine">#07889A</color>
+    <color name="grey">#AAAAAA</color>
+    <color name="darkgrey">#999999</color>
+    <color name="semiblack">#AA000000</color>
+    <color name="hilight_grey">#99FFFFFF</color>
+    <color name="shadow_grey">#99000000</color>
+    <color name="red">#FF0000</color>
+</resources>

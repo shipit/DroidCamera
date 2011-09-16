@@ -12,9 +12,9 @@ public class Main extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        Drawable d = new BrushedMetallicDrawable();
-        View view = findViewById(R.id.rl_top_header);
-        view.setBackgroundDrawable(d);
+//        Drawable d = new BrushedMetallicDrawable();
+//        View view = findViewById(R.id.rl_top_header);
+//        view.setBackgroundDrawable(d);
     }
     
 }
