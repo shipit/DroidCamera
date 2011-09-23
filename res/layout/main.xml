@@ -72,15 +72,22 @@
       
   </RelativeLayout>
         
-  <ImageView
-    android:id="@+id/iv_image_preview"
+  <RelativeLayout
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_below="@id/rl_top_header"
     android:layout_above="@id/rl_bottom_tray"
     android:layout_margin="40dp"
-    android:scaleType="centerCrop"
-    android:adjustViewBounds="true"
-    android:background="@color/red"/>
+    android:padding="5dp"
+    android:background="@drawable/picture_frame">
+        
+	  <ImageView
+	    android:id="@+id/iv_image_preview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:scaleType="centerCrop"
+	    android:adjustViewBounds="true"/>
+	    
+  </RelativeLayout>
             
 </RelativeLayout> 
