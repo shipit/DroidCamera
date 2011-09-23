@@ -64,6 +64,7 @@
       android:background="@color/hilight_grey"/>
 
     <Button
+      android:id="@+id/btn_camera_button"
       android:layout_width="96dp"
       android:layout_height="96dp"
       android:layout_centerInParent="true"
@@ -71,4 +72,15 @@
       
   </RelativeLayout>
         
+  <ImageView
+    android:id="@+id/iv_image_preview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@id/rl_top_header"
+    android:layout_above="@id/rl_bottom_tray"
+    android:layout_margin="40dp"
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true"
+    android:background="@color/red"/>
+            
 </RelativeLayout> 
